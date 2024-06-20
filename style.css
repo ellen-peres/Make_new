@@ -12,6 +12,9 @@ html, body {
   height: 100vh;
 }
 
+header{
+  background-color: #d2f973;
+}
 body {
   overflow-x: hidden;
   background-image: url(img/Boardmobile.png);
@@ -55,9 +58,16 @@ img {
   
 }
 
+.biblioteca img {
+  border-radius: 50px;
+  width: 100%;
+}
+
 main h2 {
   margin: 30px 20px;
 }
+
+
 
 .biblioteca{
   display: flex;
@@ -68,7 +78,7 @@ main h2 {
 }
 
 .livros{
- 
+  border-radius: 10px;
   width: 200px;
   height: 200px;
   background-color: #d2f973;
@@ -112,14 +122,14 @@ main h2 {
     font-size: 48px;
   }
 
-  img {
+  .container img {
     margin: 30px;
     max-width: 350px;
     cursor: pointer;
     
   }
 
-  img:hover{
+  .container img:hover{
     width: 300px;
     transition: .2s;
   }
