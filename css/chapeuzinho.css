@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin-bottom: 10%;
+}
+
+p{
+    margin-bottom: 3%;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+}
+
+body{
+
+}
+main{
+    margin: 10%;
+    max-width: 500px;
+}
+header{
+    padding: 30px;
+    background-color: rgb(165, 207, 117);
+    display: flex;
+    justify-content:end;
+    gap: 10px;
+}
+
+
+@media (min-width: 900px) {
+    
+    
+}

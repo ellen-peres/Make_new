@@ -2,11 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+ 
 }
+
+
 
 html, body {
   width: 100%;
-  height: 100%;
+  height: 100vh;
 }
 
 body {
@@ -26,8 +29,14 @@ span {
   color: white;
   font-size: 48px; /* Adicionado a unidade de medida */
 }
-
+main {
+  margin: auto;
+  width: 90%;
+  height: 100vh;
+}
 .container {
+  width: 90%;
+  height: 100vh;
   padding: 20px;
 }
 
@@ -44,6 +53,27 @@ img {
  
   border: 9px dashed #d2f973;
   
+}
+
+main h2 {
+  margin: 30px 20px;
+}
+
+.biblioteca{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.livros{
+ 
+  width: 200px;
+  height: 200px;
+  background-color: #d2f973;
+}
+.biblioteca span { font-size: 20px;
 }
 
 /* Media queries para telas maiores */
