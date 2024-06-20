@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  overflow-x: hidden;
+  background-image: url(img/Boardmobile.png);
+  background-size: cover; /* Ajusta a imagem de fundo para cobrir a tela */
+  background-position: center; /* Centraliza a imagem de fundo */
+  color: #d2f973;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Alinha os filhos verticalmente */
+}
+
+span {
+  color: white;
+  font-size: 48px; /* Adicionado a unidade de medida */
+}
+
+.container {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 48px;
+  margin: 20px 0;
+  text-transform: uppercase;
+  margin-bottom: 80px;
+  text-align: left;
+}
+
+img {
+  width: 100%;
+ 
+  border: 9px dashed #d2f973;
+  
+}
+
+/* Media queries para telas maiores */
+@media (min-width: 600px) {
+  h1 {
+    font-size: 48px;
+    text-align: left;
+  }
+
+  img {
+    width: 50%;
+    max-width: 400px;
+  }
+}
+
+@media (min-width: 900px) {
+  .container {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 7px dashed #d2f973;
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  h1 {
+    margin: 10%;
+    font-size: 48px;
+    text-transform: uppercase;
+    
+  }
+
+  h1 span {
+    font-size: 48px;
+  }
+
+  img {
+    margin: 30px;
+    max-width: 350px;
+    cursor: pointer;
+    
+  }
+
+  img:hover{
+    width: 300px;
+    transition: .2s;
+  }
+}
